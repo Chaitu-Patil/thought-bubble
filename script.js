@@ -29,9 +29,3 @@ connectBtn.addEventListener("click", async () => {
     statusText.textContent = "Status: Connection failed";
   }
 });
-
-  } catch (error) {
-    console.error(error);
-    statusText.textContent = "Status: Connection failed";
-  }
-});
